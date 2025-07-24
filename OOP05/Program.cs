@@ -82,6 +82,8 @@ public class Point3D : IComparable, ICloneable
     }
 }
 #endregion
+
+
 public class Program
 {
     public static void Main(string[] args)
@@ -111,5 +113,7 @@ public class Program
         Point3D clonedPoint = (Point3D)originalPoint.Clone();
         Console.WriteLine(clonedPoint.ToString());
         #endregion
+        //bruh why this is easier than the first one
+        
     }
 }
